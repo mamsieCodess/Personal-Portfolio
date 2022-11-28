@@ -9,12 +9,10 @@ body{
 
 section{
     height:685px;
-    background-color:rgb(59, 59, 96);
     margin-bottom: 20px;
 }
 .home{
     display: flex;
-    background-color: rgb(246, 246, 246);
     font-size:22px;
 }
 
@@ -42,7 +40,6 @@ section{
 
 .about{
     display: flex;
-    background-color: #F6F6F6;
     padding:20px 50px;
     font-size:22px;
     height: max-content;
@@ -64,7 +61,6 @@ section{
 .skills{
     display: flex;
     padding:20px 50px;
-    background-color: #F6F6F6;
     text-align: center;
     height: fit-content;
    
@@ -94,7 +90,6 @@ span{
 .projects{
     padding: 0 50px 50px 50px;
     height: max-content;
-    background-color: #F6F6F6;
     text-align: center;
 
 }
