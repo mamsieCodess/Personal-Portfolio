@@ -1,0 +1,154 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    background-color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+section{
+    height:685px;
+    background-color:rgb(59, 59, 96);
+    margin-bottom: 20px;
+}
+.home{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    font-size:22px;
+}
+
+.intro{
+    flex:1.5;
+
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 300px 10px 0 0;
+}
+
+#name{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    margin: 0 00px 50px;
+    letter-spacing: 0;
+}
+
+.intro-picture{
+    flex: 1;
+    background-image: url('../images/20221124_1236051.jpg');
+    background-size: cover;
+    margin:20px;
+}
+
+.about{
+    display: flex;
+    background-color: #F6F6F6;
+    padding:20px 50px;
+    font-size:22px;
+    height: max-content;
+}
+.about-picture{
+    flex:1;
+    padding:50px;
+
+}
+.about-picture img{
+    flex: 1.5;
+    width: 400px;
+}
+
+.about-description{
+    flex:1;
+ padding-top:100px;
+}
+.skills{
+    display: flex;
+    padding:20px 50px;
+    background-color: #F6F6F6;
+    text-align: center;
+    height: fit-content;
+   
+}
+.skills div{
+    font-size:22px;
+    flex:1;
+    padding:0px 50px 0 50px;
+   
+}
+#skills-picture{
+    margin-top:130px;
+    width:350px;
+}
+
+span{
+    padding-top:50px;
+    display: block;
+    justify-content: center;
+}
+
+#icons img{
+    width: 90px;
+    margin: 10px;
+    
+}
+.projects{
+    padding: 0 50px 50px 50px;
+    height: max-content;
+    background-color: #F6F6F6;
+    text-align: center;
+
+}
+.projects  p{
+    font-size:22px;
+    padding:20px 50px;
+    text-align: center;
+   
+
+}
+.projects div{
+    margin: 40px 0px;
+}
+
+.projects img{
+    width: 550px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    font-size:22px;
+    padding:70px 100px;
+    background-color: #F6F6F6;
+    text-align: center;
+  
+
+}
+#contact-picture > img {
+    width: 400px;
+    padding:50px;
+ 
+}
+
+.icon {
+    width:35px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
